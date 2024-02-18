@@ -117,7 +117,7 @@ $( document ).ready(function() {
 
   mainCal.forEach(element => {
     $(element).datetimepicker({
-      format: "d.m.y",
+      format: "d.m.Y",
       scrollInput: false,
       scrollTime: false,
       lang: "ru",
@@ -148,7 +148,7 @@ $( document ).ready(function() {
 
   startCal.forEach(element => {
     $(element).datetimepicker({
-      format:'d.m.y',
+      format:'d.m.Y',
       scrollInput: false,
       scrollTime: false,
       scrollMonth: false,
@@ -182,7 +182,7 @@ $( document ).ready(function() {
 
   endCal.forEach(element => {
     $(element).datetimepicker({
-      format:'d.m.y',
+      format:'d.m.Y',
       scrollInput: false,
       scrollTime: false,
       scrollMonth: false,
